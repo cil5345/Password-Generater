@@ -1,48 +1,23 @@
-# 03 JavaScript: Password Generator
+# Random Number Generator 
 
-Create an application that generates a random password based on user-selected criteria. This app will run in the browser and feature dynamically updated HTML and CSS powered by your JavaScript code. It will also feature a clean and polished user interface and be responsive, ensuring that it adapts to multiple screen sizes.
 
-If you are unfamiliar with special characters, take a look at [some examples](                          ).
+## Intro
+Cyber security is one of the most important factors in technology. Information is being passed along from user to servers with important information. One of the best ways to protect users from potential threats (i.e hackers/bug) is to have a strong password. 
 
-## User Story
+-----
 
-```
-AS AN employee with access to sensitive data
-I WANT to randomly generate a password that meets certain criteria
-SO THAT I can create a strong password that provides greater security
-```
+## My Generater
+My generator creates a randomized password that is betwen 8 to 128 characters long. The password can inclue upper, lower, numeric, and special characters. This allows the computer to generate a strong password, especially if passwords are in the 100s. The password generated will be strong and will be able to compied from the board.
 
-## Acceptance Criteria
+------
 
-```
-GIVEN I need a new, secure password
-WHEN I click the button to generate a password
-THEN I am presented with a series of prompts for password criteria
-WHEN prompted for password criteria
-THEN I select which criteria to include in the password
-WHEN prompted for the length of the password
-THEN I choose a length of at least 8 characters and no more than 128 characters
-WHEN prompted for character types to include in the password
-THEN I choose lowercase, uppercase, numeric, and/or special characters
-WHEN I answer each prompt
-THEN my input should be validated and at least one character type should be selected
-WHEN all prompts are answered
-THEN a password is generated that matches the selected criteria
-WHEN the password is generated
-THEN the password is either displayed in an alert or written to the page
-```
+## Trouble
+THere were many different varation of this generator. The first instance was a button clicked system rather than prompt. I found this to be difficult because I still did not have a full grasp on adding elements from java to html. THe other instance was adding trying to use the charCode() to obtain unicode characters. This failed because i failed to grap using charCode() in a math.floor(math.random).
 
-The following image demonstrates the application functionality:
+------
+------
+## Conclusion 
+This generator was defintely a challenege to create. It utlized past concepts of for loops, random function, arrays, booleans, and if else statements to really test my knowlege. The next time I create a generator, I would probably add buttons instead of using prompts and using the charCode method to obtain random characters. This would create a better user experience and make the generator less clunky. 
 
-![password generator demo](./Assets/03-javascript-homework-demo.png)
 
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application.
-
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
-
-- - -
-© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+![alt text](file:///Users/chrislee/Desktop/code/homework/Password-Generater/Password%20Generator.png)
